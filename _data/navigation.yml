@@ -1,9 +1,11 @@
 #main links
 main:
+  - title: "Home"
+    url: /home/
   - title: "About"
     url: /about/
   - title: "Texts"
-    url: /categories/Texts/
+    url: /categories/texts/
   - title: "Maps"
     url: /categories/maps/
   - title: "Gallery"
