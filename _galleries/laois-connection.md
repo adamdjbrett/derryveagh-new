@@ -3,7 +3,7 @@ title: "The Laois Connection"
 excerpt: "Where John George Adair comes from."
 gallery:
   - url: /images/15.jpg
-    image_path: /images/thumbs/
+    image_path: /images/thumbs/15_t.jpg
     alt: "Rathdaire"
     title: "Rathdaire"
   - url: /images/127.jpg
