@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Bad Reviews: From the _Times_ of London"
 excerpt_separator: "<!--more-->"
 categories:
   - texts

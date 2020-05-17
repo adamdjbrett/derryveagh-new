@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "500,000 Curses: Cruel John Adair"
 excerpt_separator: "<!--more-->"
 categories:
   - texts

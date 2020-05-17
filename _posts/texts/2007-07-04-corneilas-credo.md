@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Cornelia‘s Credo"
 excerpt_separator: "<!--more-->"
 categories:
   - texts

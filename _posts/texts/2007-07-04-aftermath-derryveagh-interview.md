@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Aftermath: Interview with an Evicted Woman"
 excerpt_separator: "<!--more-->"
 categories:
   - texts

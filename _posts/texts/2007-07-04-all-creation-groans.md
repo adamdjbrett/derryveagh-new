@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "All creation groans and travails"
 excerpt_separator: "<!--more-->"
 categories:
   - texts

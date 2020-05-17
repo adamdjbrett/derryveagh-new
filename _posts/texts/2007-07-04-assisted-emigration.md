@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Assisted Emigration - The Answer to Destitution?"
 excerpt_separator: "<!--more-->"
 categories:
   - texts

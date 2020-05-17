@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Aftermath: A View of Glenveigh Castle..."
 excerpt_separator: "<!--more-->"
 categories:
   - texts
