@@ -1,5 +1,5 @@
 ---
-title: "Ireland‘s 26 counties"
+title: "Ireland’s 26 counties"
 excerpt_separator: "<!--more-->"
 categories:
   - maps

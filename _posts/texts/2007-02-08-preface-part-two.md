@@ -27,8 +27,8 @@ Beneath the curse of alien laws, and brutal coward greed!
 
 ### III.
 Lo!, in the wilds of Donegal, where heather-bloom is spread
-Round laek and cliff, on moor and meen, and to the mountain‘s head,
-Our cabin homes, our natal homes, our kindred‘s homes, where they,
+Round laek and cliff, on moor and meen, and to the mountain’s head,
+Our cabin homes, our natal homes, our kindred’s homes, where they,
 Lie ruined by the minons of the spolier of Glenveigh!
 
 ### IV.
@@ -51,7 +51,7 @@ tags:
 Upon a bitter morn in Marfch, the ruffian, base Adair,
 With heart of mingled hate and feat, brought armed hundreds there;
 Their bayonets drawn, as on they marched, the Sheriff moved before,
-While crowbar men like hell-hounds yell, around the widow‘s door.
+While crowbar men like hell-hounds yell, around the widow’s door.
 
 ### VI.
 Before they tore her roof-tree down, and struck her heart with gloom,
@@ -87,10 +87,10 @@ The vanished, broken-down serfs - the outcasts of Glenveigh!
 Let pen and voice proclaim their wrongs throughout the land, until
 A sword is seen in every hand, a signal on each hill;
 And raised the standard of revolt, wet with our blood and tears,
-And Erin roused up with the wrath of Brian‘s clans and peers!
+And Erin roused up with the wrath of Brian’s clans and peers!
 
 ### XII.
-T'were nobler far for men to die in freedom‘s glorious fray,
+T'were nobler far for men to die in freedom’s glorious fray,
 Then crouch in fear and wait the fate that wildernessed Glenveigh!
 And shall such rule continue, men? - shall thinkgs fore'er be so,
 When you yourselves could end all wrong, by _union and a blow_?

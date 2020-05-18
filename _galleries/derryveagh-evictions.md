@@ -24,8 +24,8 @@ gallery:
     title: "Rathdaire"
   - url: /images/42.jpg
     image_path: /images/thumbs/42_t.jpg
-    alt: "One‘s Right to Dream..."
-    title: "One‘s Right to Dream..."
+    alt: "One’s Right to Dream..."
+    title: "One’s Right to Dream..."
   - url: /images/12.jpg
     image_path: /images/thumbs/12_t.jpg
     alt: "Derryveagh Mountains"

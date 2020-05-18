@@ -10,7 +10,7 @@ tags:
 ---
 ### "All creation groans and travails..."
 
-Is the reason Adair first goes to America because Europe, England and Ireland‘s _Great Cattle Plague_ was a Threat to his Way of Life? A clue: that year, this hymn was widely sung in English churches:  <!--more-->
+Is the reason Adair first goes to America because Europe, England and Ireland’s _Great Cattle Plague_ was a Threat to his Way of Life? A clue: that year, this hymn was widely sung in English churches:  <!--more-->
 
 1\. All creation groans and travails  
 Thou, O God, shall hear its groan  

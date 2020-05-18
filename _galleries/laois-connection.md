@@ -8,16 +8,16 @@ gallery:
     title: "Rathdaire"
   - url: /images/127.jpg
     image_path: /images/thumbs/127_t.jpg
-    alt: "Adair‘s Prize-Winning Farmyard"
-    title: "Adair‘s Prize-Winning Farmyard"    
+    alt: "Adair’s Prize-Winning Farmyard"
+    title: "Adair’s Prize-Winning Farmyard"    
   - url: /images/111.jpg
     image_path: /images/thumbs/111_t.jpg
     alt: "Set in Stone"
     title: "Set in Stone"
   - url: /images/110.jpg
     image_path: /images/thumbs/110_t.jpg
-    alt: "Hidden in Plain Sight: A Reformer‘s Farmyard"
-    title: "Hidden in Plain Sight: A Reformer‘s Farmyard"
+    alt: "Hidden in Plain Sight: A Reformer’s Farmyard"
+    title: "Hidden in Plain Sight: A Reformer’s Farmyard"
   - url: /images/122.jpg
     image_path: /images/thumbs/122_t.jpg
     alt: "For Whom the Bell Tolls"

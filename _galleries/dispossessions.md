@@ -23,16 +23,16 @@ gallery:
     title: "Right to Return?"    
   - url: /images/48.jpg
     image_path: /images/thumbs/48_t.jpg
-    alt: "Dispossession‘s Way"
-    title: "Dispossession‘s Way"
+    alt: "Dispossession’s Way"
+    title: "Dispossession’s Way"
   - url: /images/51.jpg
     image_path: /images/thumbs/51_t.jpg
     alt: "Instrument of Choice"
     title: "Instrument of Choice"
   - url: /images/56.jpg
     image_path: /images/thumbs/56_t.jpg
-    alt: "Who‘s On First?"
-    title: "Who‘s On First?"    
+    alt: "Who’s On First?"
+    title: "Who’s On First?"    
   - url: /images/57.jpg
     image_path: /images/thumbs/57_t.jpg
     alt: "Scorched Earth"

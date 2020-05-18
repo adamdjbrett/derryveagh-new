@@ -16,7 +16,7 @@ Times of London
 April 24, 1861  
 
 ***
-Terrorism is not to be met by terrorism, for terrorism itself is the parent of crime, and a fellowship in undeserved suffering, except in rare cases, prepares men‘s minds for another kind of fellowship of which Ireland has seen too much.  
+Terrorism is not to be met by terrorism, for terrorism itself is the parent of crime, and a fellowship in undeserved suffering, except in rare cases, prepares men’s minds for another kind of fellowship of which Ireland has seen too much.  
 
 Times of London  
 June 26, 1861

@@ -1,5 +1,5 @@
 ---
-title: "Adair‘s Credo: 'I will, at all costs, maintain my rights'"
+title: "Adair’s Credo: 'I will, at all costs, maintain my rights'"
 excerpt_separator: "<!--more-->"
 categories:
   - texts
@@ -9,7 +9,7 @@ tags:
   - Donegal
 ---
 
-### Adair‘s Credo: "I will, at all costs, maintain my rights"
+### Adair’s Credo: "I will, at all costs, maintain my rights"
 
 "The tenants are aware that my estates are subject to charges, taxes, rents, annuitiex and incumbrancex; these must be paid wthout reduction. Were I therefore to accede to their request I should be driven to abandon my property. This I am not prepared to do, and consequently cannot grant their request...  
 <!--more-->
