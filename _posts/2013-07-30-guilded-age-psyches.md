@@ -27,5 +27,4 @@ Website:	[www.thenandnow.us](http://www.thenandnow.us)
 
 
 archived from:
-http://web.archive.org/web/20130730090718/http://www.nyhumanities.org/speakers/adult_audiences/lecture.php?lecture_id=1240
-
+[archive.org](http://web.archive.org/web/20130730090718/http://www.nyhumanities.org/speakers/adult_audiences/lecture.php?lecture_id=1240)
