@@ -284,23 +284,13 @@ defaults:
       comments: # true
       share: true
       related: true
-      sidebar:
-        - title: "Derryveagh Evictions"
-          image: /images/derryveagh-sidebar.jpg
-          image_alt: "A man evicted from his land cries on top of his shoulder"
-          text: "Then and Now"
-  # _pages
+# _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: false
-      sidebar:
-        - title: "Derryveagh Evictions"
-          image: /images/derryveagh-sidebar.jpg
-          image_alt: "A man evicted from his land cries on top of his shoulder"
-          text: "Then and Now"
   # pdfs
   - scope:
       path: "media/files"
@@ -319,8 +309,3 @@ defaults:
       layout: single
       author_profile: false
       share: true
-      sidebar:
-        - title: "Derryveagh Evictions"
-          image: /images/derryveagh-sidebar.jpg
-          image_alt: "A man evicted from his land cries on top of his shoulder"
-          text: "Then and Now"

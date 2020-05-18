@@ -7,6 +7,9 @@ archive of derryveagh.com
   - gallery cover images
   - redirects
 
+### Options
+I can do a sidebar but on mobile it really pushes the content down where it isn’t visible
+
 ## Colors
   - Background: Dark Brown \#130F0C
   - Alt: sidebar Brown \#292212
