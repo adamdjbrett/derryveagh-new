@@ -2,6 +2,9 @@
 title: "About"
 excerpt: "Derryveagh Evictions: History, Ireland, Dispossession and Donegal."
 permalink: /about/
+toc: true
+toc_label: "Learn more"
+toc_icon: "map-marker-alt"
 ---
 
 ## Derryveagh Evictions: History, Ireland, Dispossession and Donegal.
