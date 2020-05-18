@@ -4,9 +4,7 @@ archive of derryveagh.com
 # To Do
   - add videos
   - fix colors
-  - add robots.txt
-  - add humans.txt
-
+  
 ## Colors
   - Background: Dark Brown \#130F0C
   - Alt: sidebar Brown \#292212
