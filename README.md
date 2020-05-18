@@ -4,7 +4,9 @@ archive of derryveagh.com
 # To Do
   - add videos
   - fix colors
-  
+  - gallery cover images
+  - redirects
+
 ## Colors
   - Background: Dark Brown \#130F0C
   - Alt: sidebar Brown \#292212
