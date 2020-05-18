@@ -8,11 +8,14 @@ archive of derryveagh.com
   - add humans.txt
 
 ## Colors
-  - Background: Brown \#130F0C
+  - Background: Dark Brown \#130F0C
+  - Alt: sidebar Brown \#292212
   - Title: Green \#004F2F
   - Accent: Orange \#004F2F
-  - Alt: Brown \##B9B195
+  - Alt: Brown \#B9B195
+
   - Font color: \#af916
+  - Link color: \#676C4D
 
 ## missing
   - Thatching Matters
