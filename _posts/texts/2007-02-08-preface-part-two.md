@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Preface to a Tragedy Part Two"
 excerpt_separator: "<!--more-->"
 categories:
   - texts
@@ -8,9 +8,7 @@ tags:
   - Derryveagh
   - Donegal
 ---
-### PREFACE TO A TRAGEDY: Part Two
-
-"The following is the ballad by Thomas Nielson Underwood, Barrister, Strabane, Ireland:
+The following is the ballad by Thomas Nielson Underwood, Barrister, Strabane, Ireland:
 <!--more-->
 
 ## "GLENVEIGH"

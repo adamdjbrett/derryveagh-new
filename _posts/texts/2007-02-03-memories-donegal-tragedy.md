@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "In place of this fine population is to-day a deer-forest..."
 excerpt_separator: "<!--more-->"
 categories:
   - texts
@@ -8,7 +8,6 @@ tags:
   - Derryveagh
   - Donegal
 ---
-# "In place of this fine population is to-day a deer-forest..."
 (This from Bernard Barret...)  
 <!--more-->
 ## Memories of a Donegal Tragedy  

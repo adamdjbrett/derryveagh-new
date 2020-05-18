@@ -7,8 +7,7 @@ permalink: /gilded-age-psyches/
 tags:
   - presentations
 ---
-## Gilded Age Psyches: An Epic of Victorians Run Wild
-### A lecture by Robert Spiegelman
+## A lecture by Robert Spiegelman
 Drawing on original research, on-site photos and his Internet trilogy, Dr. Robert Spiegelman presents a multimedia tour-de-force of America‘s first Gilded Age that brims with present-day lessons. Victorians Gone Wild is the epic love story of two wounded souls: the brilliant Victorian couple who gave us America‘s first transatlantic marriage. They are tracked from the American Revolution, through our Wild West Indian Wars, to Ireland‘s stormiest Land Wars. Its centerpiece is a great Buffalo Safari across America‘s Great Plains, weaving between a national Gold Expedition to the north and an Indian War to the south. Husband John Adair, an infamous Irish landlord, and his wife Cornelia Wadsworth, the daughter of elite New York landowners, court and spark in Manhattan, then head off on a lark to bag the last buffalo trophy, as the species nears extinction. Though they comically fail, they end up "consoled" by founding the real Bonanza - the first Texas Panhandle Cattle Empire. Yet behind their personal fairy tale lurks the desperate need to maintain their shaky Victorian lifestyle, by any means necessary.
 <!--more-->
 
@@ -26,7 +25,7 @@ For more information, visit Dr. Spiegelman‘s web trilogy: [SullivanClinton.com
 
 Website:	[www.thenandnow.us](http://www.thenandnow.us)
 
-```
+
 archived from:
 http://web.archive.org/web/20130730090718/http://www.nyhumanities.org/speakers/adult_audiences/lecture.php?lecture_id=1240
-```
+

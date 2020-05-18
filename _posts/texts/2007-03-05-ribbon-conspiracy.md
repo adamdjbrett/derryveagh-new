@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Realities of Irish Life: The Ribbon Conspiracy"
 excerpt_separator: "<!--more-->"
 categories:
   - texts
@@ -8,8 +8,6 @@ tags:
   - Derryveagh
   - Donegal
 ---
-### "Realities" of Irish Life: The Ribbon Conspiracy
-
 There are few who have not heard of the Ribbon Soceities of Ireland; those dark and mysterious confederacies which, springing up from tme to time in different localities, have spread terror and dismayintotheheartsof bothricand poor, which have done so much to discourage the influx of capital into Ireland, and to promote the absenteeism of hundreds of wealthy prorietors, who would be only too glad to be allowed to reside upon their Irish estates, and in the midst of thier Irisih tenantry , could they do so in peace and safety.  
 <!--more-->
 But the terrible Ribbon Code is too formidable for most men to face, who have the means of living elsewhere, and who are not bound by any peculiar ties to Ireland. It is the fashion to blame absentees; but can they always be justly blamed?  

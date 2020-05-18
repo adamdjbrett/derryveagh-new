@@ -1,5 +1,5 @@
 ---
-title: "THE PRESERVERS: Keeping Derryveagh‘s Memory Alive..."
+title: "The Preservers: Keeping Derryveagh‘s Memory Alive..."
 excerpt_separator: "<!--more-->"
 categories:
   - texts

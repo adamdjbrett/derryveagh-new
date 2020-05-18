@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Players and Places"
 excerpt_separator: "<!--more-->"
 categories:
   - texts
@@ -8,8 +8,6 @@ tags:
   - Derryveagh
   - Donegal
 ---
-# PLAYERS and PLACES
-
 ## WHO‘s WHO  
 An evolving _Who‘s Who_ and _Where and When_ of the Derryveagh Evictions and its Aftermath (In progress... Add your players!)
 <!--more-->

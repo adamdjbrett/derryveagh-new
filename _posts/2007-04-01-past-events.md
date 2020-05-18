@@ -7,7 +7,6 @@ permalink: /past-events/
 tags:
   - presentations
 ---
-
 ## 2007 Events
 ### APRIL, NYC: ACIS Conference
 Dr. Spiegelman presents on the Derryveagh Evictions & America at the 45th Annual Meeting of the American Conference for Irish Studies, Sat. April 21 (10am) at the City University of NY Graduate Center, in NYC.
