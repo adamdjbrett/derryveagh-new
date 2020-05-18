@@ -18,17 +18,3 @@ intro:
 <p>Derryveagh is just the tip of the iceberg: step one in Adair&lsquo;s fevered transatlantic quest for a vast, personal empire. &ldquo;The great thing,&rdquo; advises his wife, &ldquo;is to miss as little as possible, and to share as much.&rdquo; Adair rejects the latter half. His grasp is matched only by its wake: the tragic impact on native peoples - red, white and green - across 3 continents. Today, Derryveagh&lsquo;s traces remain hidden in plain sight. As its shockwaves continue to spread,&nbsp;<a href="http://web.archive.org/web/20100713001224/http://www.coillte.ie/aboutcoillte/community/community_partnerships/ulster/the_derryveagh_evictions_donegal/?no_cache=1&amp;sword_list%5B%5D=mcclintock">dedicated others</a>&nbsp;still work to preserve and fix the broken links. Have a look:</p>
 
 <a href="/swf/home.swf">home.swf</a>
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% for post in posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
