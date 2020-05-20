@@ -6,6 +6,7 @@ archive of derryveagh.com
   - fix colors
   - gallery cover images
   - redirects
+  - footer (all four sites)
 
 ### Options
 I can do a sidebar but on mobile it really pushes the content down where it isn’t visible
