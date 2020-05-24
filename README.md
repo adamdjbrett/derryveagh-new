@@ -3,6 +3,10 @@ archive of derryveagh.com
 
 # To Do
   - add videos
+    - home.swf done
+    - home3.swf done
+    - allfilm.swf broken
+    - slideshow.swf broken
   - fix colors
   - gallery cover images
   - redirects

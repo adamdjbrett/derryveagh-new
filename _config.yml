@@ -309,3 +309,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # images
+  - scope:
+      path: "images"
+    values:
+      image: true
