@@ -2,11 +2,6 @@
 archive of derryveagh.com
 
 # To Do
-  - add videos
-    - home.swf done
-    - home3.swf done
-    - allfilm.swf broken
-    - slideshow.swf broken
   - fix colors
   - gallery cover images
   - redirects
@@ -15,6 +10,15 @@ archive of derryveagh.com
 ### Options
 I can do a sidebar but on mobile it really pushes the content down where it isn’t visible
 
+### Done
+- add videos
+  - home.swf done
+  - home3.swf done
+  - allfilm.swf broken
+  - slideshow.swf broken
+- image archive index
+    - add config.yml
+    - use image-archive template
 ## Colors
   - Background: Dark Brown \#130F0C
   - Alt: sidebar Brown \#292212
