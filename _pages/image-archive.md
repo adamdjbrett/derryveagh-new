@@ -7,6 +7,6 @@ All the images
 <!-- more -->
 
 {% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in iamges_files %}
+{% for myimage in image_files %}
   ![{{myimage.name}}]({{ mypdf.path }})
 {% endfor %}
