@@ -25,7 +25,7 @@ url                      : https://derryveagh.theological.me
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : https://github.com/adamdjbrett/derry-veagh-archive
 teaser                   : /images/derryveagh-teaser.jpg
-logo                     : /images/celtic-knot-insquare-39crossings-88x88-web.svg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /images/celtic-knot-insquare-39crossings-88x88-web.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true
 words_per_minute         : 200
