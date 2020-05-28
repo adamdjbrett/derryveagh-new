@@ -14,6 +14,8 @@ main:
     url: /contact/
   - title: "Links"
     url: /links/
+  - title: "Intro"
+    url: /intro/  
   - title: "Credits"
     url: /credits/
   - title: "Bio"
