@@ -7,6 +7,8 @@ toc_label: "Learn more"
 toc_icon: "map-marker-alt"
 ---
 
+![April was the Month of the Shattered Hearth](/images/section_1.jpg)
+
 In April 1861 - The Month of the Shattered Hearth - landlord John George Adair evicted nearly 250 tenants from Derryveagh, a star-crossed townland in Donegal, Ireland. Adair blamed the unsolved murder of his land steward on the whole community and uprooted them, utterly. The Derryveagh young were soon assisted, by ship, to farthest Australia. By swapping his Gaelic eyesores for imported Scottish sheep, and then a mini-castle for his American bride, Black Jack Adair depopulated the region, scandalized Parliament and sparked a _cause celebre_ that roiled Ireland, England, Australia and America.
 
 

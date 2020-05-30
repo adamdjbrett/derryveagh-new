@@ -2,19 +2,9 @@
 title: "Bio"
 excerpt: "Professional Bio for Robert Spiegelman"
 permalink: /bio/
+author_profile: true
 ---
+
+![April was the Month of the Shattered Hearth](/images/section_2.jpg)
+
 Learn more about [Robert Spiegelman](http://www.SullivanClinton.com/)
-
-<div>Robert Spiegelman has been a freelance author and film producer, screenwriter, project-developer, multimedia advisor, research director and story consultant on a growing array of film, museum and multimedia projects. He addresses audiences across NY and Pennsylvania and is officially appointed (through 2009) to the highly-regarded New York Council for the Humanities .  
-
-Dr. Spiegelman’s passion is history. Over the last decade, he has been researching the watershed Sullivan-Clinton Campaign and parallel indigenous histories in Texas, Ireland and China. In 2004, he launched the award-winning website [SullivanClinton.com](http://www.sullivanclinton.com/ "SullivanClinton.com"); and developed _Fields of Fire_, a companion 11-scene [interactive/animated mapset](http://www.sullivanclinton.com/mapset/shell.swf "interactive mapset. Uses Shockwave Flash"), now accessible at the Resource Centers of the Smithsonian Museum (NMAI) in Washington and Manhattan. Spiegelman also designs multimedia installations, such as "The Sullivan-Clinton Campaign, 1779-2004," which showed at the American Indian Community House in Manhattan.  
-
-His essay on the cultural meanings of Sullivan/Clinton won the 225th Anniversary contest sponsored by the Booth Library-Chemung Valley Historical Society. Several more are slated for publication in 2007\. A forthcoming book, _Fields of Fire: The Sullivan/Clinton Campaign: Then & Now _will be published in 2007\. Spiegelman has presented at many venues, including the Smithsonian NMAI (NYC), Rochester Museum & Science Center, Fenimore Art Museum, Syracuse University and the Onondaga Nation. He also addresses teacher workshops, maintains an educator’s curriculum guide, and reaches highly-diverse audiences.  
-
-Film and multimedia projects under development include: _Shattered Hearths_, a multifaceted, multimedia project on 19th century dispossession and its ongoing impact; _Taiping_, a 19th century drama of the struggle for love and personal integrity during China’s Taiping Rebellion, history’s second bloodiest war; _Old Shanghai_, a Chinatown-like drama of murder and love in a city on the brink of WWII; _Due North_, an indigenous woman’s wrenching quest for identity amidst siren calls of crossover stardom; and _Shanghai Reverie_, a documentary on legendary old Shanghai.  
-
-Other texts in progress include: _Staked Plains_, a 19th century history of entitlement and dispossession, recounted through an eminent Victorian couple, whose traces and deeds reverberate today; _Old Shanghai_, a novel of the struggle for love during historical upheaval and political intrigue; _To the Global Station_: an analysis of the origins of globalization in the womb and aftermath of World War II; and _Scarcity and Abundance_, a study of how these entwined ideas impact American culture and social thought.  
-
-Dr. Spiegelman is producer-director for _Up South_, an in-depth look at race relations in the Hudson Valley, currently in development. He was research director and lead interviewer for the 6-part documentary, _Muhammad Ali: The Whole Story_, segments of which aired on TNT. (On this, he worked with Robert Lipsyte, senior sportswriter of the New York Times and Leon Gast, director of the Oscar-winning _When We Were Kings_; and interviewed figures like William F. Buckley, Jr., Paul Robeson, Jr. and numerous boxing greats and journalists.) Spiegelman has been a script and media advisor. He has developed epic-scale film projects on China’s 20th century revolution, working with Oscar-winner Ron Bass (Rain Man); and _Taiping_, based on China’s 19th century Taiping revolution, with Oscar-nominee Zachary Sklar (JFK). He is also a co-producer of two epics-in-progress:_The Wounding,_ a work in-progress on the 18th century Euro-Indian wars in North America and _Staked Plains/Shattered Hearths,_ an 19th century epic saga of love and revenge in the first Gilded Age.  
-
-Spiegelman’s reviews and feature articles have appeared in venues like _International Documentary_, _Chemung History Journal_, _CA Quarterly_, _Social Policy_ and _The Guardian_ (US) and have sparked commentary in the _Columbia Journalism Review_. He holds a Ph.D. in Sociology from the City University of New York, an M.A. in Philosophy from the University of Michigan, and a B.A. in Philosophy from Queens College (CUNY).</div>

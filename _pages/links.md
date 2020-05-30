@@ -3,6 +3,9 @@ title: "Resources and Links"
 excerpt: "learn more about the Derryveagh Evictions"
 permalink: /links/
 ---
+
+![April was the Month of the Shattered Hearth](/images/section_6.jpg)
+
 ## DISPOSSESSION AND ITS DISCONTENTS
 
 ### [Welcome to _Then & Now_: Bob Spiegelman’s Web Trilogy](http://www.thenandnow.us/)
@@ -12,6 +15,8 @@ permalink: /links/
 
 ### RESOURCES & LINKS
 
+
+![April was the Month of the Shattered Hearth](/images/section_7.jpg)
 
 #### May McClintock’s Classic: _After the Battering Ram_  
 [Download PDF (4mb)](/media/files/McClintock_4MG.pdf)  
@@ -38,6 +43,9 @@ permalink: /links/
   - [WS Trench & The Shirley Estate (Carrickmacross.ie)](http://web.archive.org/web/20090213065817/http://carrickmacross.ie/html/About_Carrick/shirley.asp)  
   - [The Letters of "Norah" On Her Tour through Ireland -- Eyewitness reports from the aftermath (Margaret Dixon McDougall)](http://web.archive.org/web/20090213065817/http://explorion.net/m.d.mcdougall-letters-norah-tour-through-ireland/index.html)  
   - [Glenveigh: victims of vengeance (Patrick Sarsfield Cassidy)](http://web.archive.org/web/20090213065817/http://www.letrs.indiana.edu/cgi/t/text/text-idx?c=wright2;idno=wright2-0475)  
+
+
+![April was the Month of the Shattered Hearth](/images/section_8.jpg)
 
 #### RELATED THEMES
   - [An American Dispossession: The Sullivan-Clinton Campaign (Robert Spiegelman)](http://sullivanclinton.com/)  
