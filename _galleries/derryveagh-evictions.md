@@ -1,6 +1,9 @@
 ---
 title: "Derryveagh Evictions"
 excerpt: "Against the silence, every picture tells its tale"
+header:
+  teaser: /images/thumbs/155_t.jpg
+  image: /images/155.jpg
 gallery:
   - url: /images/156.jpg
     image_path: /images/thumbs/156_t.jpg
@@ -39,8 +42,10 @@ gallery:
     alt: "What Nature Gave, Adair Beheld..."
     title: "What Nature Gave, Adair Beheld..."   
   - url: /images/131.jpg
-    image_path: /images/thumbs/131.jpg
+    image_path: /images/thumbs/131_t.jpg
     alt: "On the Way to the Castle"
     title: "On the Way to the Castle"    
 ---
+Against the silence, every picture tells its tale
+
 {% include gallery caption="Derryveagh Evictions Gallery" %}

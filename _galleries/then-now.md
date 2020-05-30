@@ -1,6 +1,9 @@
 ---
 title: "Then and Now: Roads to and from Derryveagh"
 excerpt: "Roads to Derryveagh"
+header:
+  teaser: /images/thumbs/19_t.jpg
+  image: /images/19.jpg
 gallery:
   - url: /images/19.jpg
     image_path: /images/thumbs/19_t.jpg
@@ -35,4 +38,5 @@ gallery:
     alt: "Facing the Battering Ram"
     title: "Facing the Battering Ram I"    
 ---
+The paths to and from Derryveagh
 {% include gallery caption="Roads to Derryveagh" %}

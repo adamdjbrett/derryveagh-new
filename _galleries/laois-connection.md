@@ -1,6 +1,9 @@
 ---
 title: "The Laois Connection"
 excerpt: "Where John George Adair comes from."
+header:
+  teaser: /images/thumbs/15_t.jpg
+  image: /images/15.jpg
 gallery:
   - url: /images/15.jpg
     image_path: /images/thumbs/15_t.jpg
@@ -43,4 +46,5 @@ gallery:
     alt: "Trench Gravesite"
     title: "Trench Gravesite"
 ---
+Where John George Adair comes from.
 {% include gallery caption="Laos Connection" %}
