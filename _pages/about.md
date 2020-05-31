@@ -25,6 +25,8 @@ In sum, [Derryveagh.com](http://www.Derryveagh.com) and [SullivanClinton.com](ht
 
 
 ## Multimedia/Lectures Available...
-The creator of Derryveagh.com, [Dr. Robert Spiegelman](/bio/), offers powerful and informed presentations to groups of all ages and backgrounds on the Derryveagh Evictions and their significance - then and now. Spiegelman has been named to the highly-regarded Speaker’s List of the NY Council for the Humanities where he presents the whole Derryveagh/Adair story as [Victorians Gone Wild](/guilded-age-psyches/).
+The creator of Derryveagh.com, [Dr. Robert Spiegelman](http://sullivanclinton.com/bio/), offers powerful and informed presentations to groups of all ages and backgrounds on the Derryveagh Evictions and their significance - then and now. Spiegelman has been named to the highly-regarded Speaker’s List of the NY Council for the Humanities where he presents the whole Derryveagh/Adair story as [Victorians Gone Wild](/guilded-age-psyches/).
 
 So please use the [Contact page](/contact/) on this website for further inquiries or suggestions.
+
+![Evicted man cries on his shovel in the fog](/images/derryveagh-sidebar.png)

@@ -15,7 +15,6 @@ permalink: /links/
 
 ### RESOURCES & LINKS
 
-
 ![April was the Month of the Shattered Hearth](/images/section_7.jpg)
 
 #### May McClintock’s Classic: _After the Battering Ram_  
@@ -54,6 +53,8 @@ permalink: /links/
   - ["Fun Facts" for Tourists: Adair’s Glenveagh BECAUSE of the Evictions!](http://web.archive.org/web/20090213065817/http://www.ireland-fun-facts.com/derryveagh-evictions.html)
   - [Gardens 'R Us: Another "Eviction-Free" Zone!](http://web.archive.org/web/20090213065817/http://www.irelandseye.com/aarticles/travel/attractions/gardens/glenv.shtm)  
   - [Sligo Heritage Site by Joe McGowan, with items on the region’s dispossessions.](http://web.archive.org/web/20090213065817/http://www.sligoheritage.com/)  
+
+![Evicted man cries on his shovel in the fog](/images/derryveagh-sidebar.png)
 
 ##### WHERE TO STAY
   - The **Grainan B&B;** at Bridgend is the kindest, most convenient and affordable place to stay in north Donegal. And with stunning views!

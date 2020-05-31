@@ -23,7 +23,7 @@ name                     : "Robert Spiegelman"
 description              : "In April 1861, over 250 tennants were evicted from their homes Derryveagh in Donegal, Ireland by Jack Adair. Adair‘s depoulation of the region sparked a transcontiental firestorm.."
 url                      : https://derryveagh.theological.me
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/adamdjbrett/derry-veagh-archive
+repository               : adamdjbrett/derryveagh-new
 teaser                   : /images/derryveagh-teaser.jpg
 logo                     : /images/celtic-knot-insquare-39crossings-88x88-web.svg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -102,6 +102,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:bob@sullivanclinton.com"
+    - label: "Bio"
+      icon: "fas fa-fw fa-link"
+      url: "http://sullivanclinton.com/bio/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://thenandnow.us"
@@ -279,7 +282,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: # true
       share: true
