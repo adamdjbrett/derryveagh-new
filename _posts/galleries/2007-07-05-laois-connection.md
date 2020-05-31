@@ -1,6 +1,8 @@
 ---
 title: "The Laois Connection"
 excerpt: "Where John George Adair comes from."
+categories:
+  - gallery
 header:
   teaser: /images/thumbs/15_t.jpg
   image: /images/15.jpg

@@ -1,6 +1,8 @@
 ---
 title: "A Tale of Two Houses"
 excerpt: "Links and Views of Bellegrove (Rathdaire) and Glenveagh Castle"
+categories:
+  - gallery
 header:
   teaser: /images/thumbs/67_t.jpg
   image: /images/67.jpg

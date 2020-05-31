@@ -1,8 +1,6 @@
 ---
 title: Galleries
-layout: collection
+layout: category
+taxonomy: gallery
 permalink: /galleries/
-collection: galleries
-entries_layout: grid
-classes: wide
 ---
