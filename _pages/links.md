@@ -58,3 +58,7 @@ permalink: /links/
 
 ##### WHERE TO STAY
   - The **Grainan B&B;** at Bridgend is the kindest, most convenient and affordable place to stay in north Donegal. And with stunning views!
+
+## Related Websites
+  - [American Indian Law Alliance](https://aila.ngo)
+  - [Indigenous Values Initiative](https://indigenousvalues.org)
