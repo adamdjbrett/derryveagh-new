@@ -2,5 +2,6 @@
 title: Texts
 layout: category
 taxonomy: texts
-permalink: /categories/texts/
+permalink: /texts/
+redirect_from: /categories/texts/
 ---

@@ -2,5 +2,6 @@
 title: Gallery
 layout: category
 taxonomy: gallery
-permalink: /categories/gallery/
+permalink: /gallery/
+redirect_from: /categories/gallery/
 ---

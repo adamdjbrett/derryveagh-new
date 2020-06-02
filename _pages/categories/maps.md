@@ -2,5 +2,6 @@
 title: Maps
 layout: category
 taxonomy: maps
-permalink: /categories/maps/
+permalink: /maps/
+redirect_from: /categories/maps/
 ---

@@ -5,9 +5,9 @@ main:
   - title: "About"
     url: /about/
   - title: "Texts"
-    url: /categories/texts/
+    url: /texts/
   - title: "Maps"
-    url: /categories/maps/
+    url: /maps/
   - title: "Gallery"
     url: /galleries/
   - title: "Contact"
@@ -15,7 +15,7 @@ main:
   - title: "Links"
     url: /links/
   - title: "Intro"
-    url: /intro/  
+    url: /intro/
   - title: "Credits"
     url: /credits/
   - title: "Bio"

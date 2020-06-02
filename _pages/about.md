@@ -5,6 +5,7 @@ permalink: /about/
 toc: true
 toc_label: "Learn more"
 toc_icon: "map-marker-alt"
+redirect_from: /mission/
 ---
 
 ![April was the Month of the Shattered Hearth](/images/section_1.jpg)
