@@ -20,7 +20,7 @@ main:
     url: /credits/
   - title: "Bio"
     url: /bio/
+  - title: "Privacy Policy"
+    url: /privacy/
   - title: "Sitemap"
     url: /sitemap/
-  - title: "Privacy"
-    url: /privacy/
