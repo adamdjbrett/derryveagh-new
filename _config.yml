@@ -101,7 +101,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:bob@sullivanclinton.com"
+      # url: "mailto:bob@sullivanclinton.com"
     - label: "Bio"
       icon: "fas fa-fw fa-link"
       url: "http://sullivanclinton.com/bio/"
