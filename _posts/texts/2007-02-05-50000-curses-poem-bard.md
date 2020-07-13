@@ -13,6 +13,7 @@ tags:
 
 **Cruel John Adair**  
 <!--more-->
+
 He brought the sheriff to our doors     \\
 He quenched our fires so bright     \\
 My grandsire is no more     \\

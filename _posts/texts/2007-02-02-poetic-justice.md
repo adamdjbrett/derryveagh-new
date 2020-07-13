@@ -17,6 +17,7 @@ All rude and poor; some wretched, - black and fair       \\
 And doleful as the cavern of Despair.       \\
 (_Bloomfield_ V. 25-30)  
 <!--more-->
+
 ***  
 The narrow toils and hardships of the poor,       \\
 Which no kind hand assists them to endure;       \\

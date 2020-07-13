@@ -12,6 +12,7 @@ tags:
 
 To invoke the aid of the sheriff and the presence of the resident magistrate to turn out some fifty families, numbering 244 souls, many of them children, who did not know their right hand from their left, and none of them, so far as appears, legally or morally convicted of guilty complicity, by way of checking Ribandism, is equally repugnant to English feelings and to English common sense.  
 <!--more-->
+
 Times of London  
 April 24, 1861  
 

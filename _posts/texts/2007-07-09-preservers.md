@@ -10,6 +10,7 @@ tags:
 ---
 In the front rank of those who preserve Derryveagh...  
 <!--more-->
+
 ## May McClintock  
 Historian, heart and soul of the decades-long project to find Derryveagh’s descendants and enable them to recover and revisit their roots in the Valley. May has researched the people’s biographies, reforested the area with original species, created a site for its remembrance and meditation, and authored the ground-breaking pamphlet _After the Battering Ram_. An essential human being.  
 

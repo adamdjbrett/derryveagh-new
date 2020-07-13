@@ -11,6 +11,7 @@ tags:
 ## WHO’s WHO  
 An evolving _Who’s Who_ and _Where and When_ of the Derryveagh Evictions and its Aftermath (In progress... Add your players!)
 <!--more-->
+
 ### Adair, John George  
 The evictor of Derryveagh, and elsewhere.  
 
