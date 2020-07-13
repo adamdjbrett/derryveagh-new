@@ -3,9 +3,6 @@ title: "Derryveagh Evictions"
 excerpt: "Against the silence, every picture tells its tale"
 categories:
   - gallery
-header:
-  teaser: /images/thumbs/155_t.jpg
-  image: /images/155.jpg
 gallery:
   - url: /images/156.jpg
     image_path: /images/thumbs/156_t.jpg

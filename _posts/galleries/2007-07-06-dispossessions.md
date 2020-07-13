@@ -3,9 +3,6 @@ title: "Dispossessions"
 excerpt: "Where and how our fates are linked"
 categories:
   - gallery
-header:
-  teaser: /images/thumbs/14_t.jpg
-  image: /images/14.jpg
 gallery:
   - url: /images/156.jpg
     image_path: /images/thumbs/156_t.jpg

@@ -7,12 +7,14 @@ tags:
   - Ireland
   - Derryveagh
   - Donegal
+gallery:
+  - url: /images/maps/ireland_famine_1847.jpg
+    image_path: /images/maps/ireland_famine_1847_tn.jpg
+    alt: "map from Ireland Story"
+    title: "Famine concentrations by county in Ireland"
 ---
+{% include gallery caption="content gallery" %}
 Severity of the Famine in Ireland, 1845-49
 <!--more-->
 
-![Famine concentrations by county in Ireland](/images/maps/ireland_famine_1847.gif "map from Ireland Story")
-
-
 map via: <http://irelandstory.com/>
-

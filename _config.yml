@@ -288,6 +288,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        nav: "sidebar-blog"
 # _pages
   - scope:
       path: "_pages"

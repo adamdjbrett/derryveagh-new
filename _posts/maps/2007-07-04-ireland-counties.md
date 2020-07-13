@@ -7,9 +7,11 @@ tags:
   - Ireland
   - Derryveagh
   - Donegal
+gallery:
+  - url: /images/maps/ireland-counties.jpg
+    image_path: /images/maps/ireland-counties_tn.jpg
+    alt: "Map of Ireland’s 26 counties"
+    title: "The counties of Ireland"
 ---
-
-A map of Ireland by County
-<!--more-->
-
-![The counties of Ireland](/images/maps/ireland-counties.jpg)
+{% include gallery caption="content gallery" %}
+A map of Ireland by County.
