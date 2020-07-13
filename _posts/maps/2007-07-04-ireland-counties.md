@@ -14,4 +14,5 @@ gallery:
     title: "The counties of Ireland"
 ---
 {% include gallery caption="content gallery" %}
+
 A map of Ireland by County.

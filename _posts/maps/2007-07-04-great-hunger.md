@@ -14,6 +14,7 @@ gallery:
     title: "Famine concentrations by county in Ireland"
 ---
 {% include gallery caption="content gallery" %}
+
 Severity of the Famine in Ireland, 1845-49
 <!--more-->
 
