@@ -8,7 +8,7 @@ tags:
   - Derryveagh
   - Donegal
 gallery:
-  - url: images/maps/adair-homeland.jpg
+  - url: /images/maps/adair-homeland.jpg
     image_path: /images/maps/adair-homeland_tn.jpg
     alt: "Ireland Map"
     title: "Adair Homeland"

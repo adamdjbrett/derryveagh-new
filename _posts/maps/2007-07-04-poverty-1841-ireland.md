@@ -8,8 +8,8 @@ tags:
   - Derryveagh
   - Donegal
 gallery:
-  - url: /images/maps//images/maps/ireland_poverty_1841.jpg
-    image_path: /images/maps//images/maps/ireland_poverty_1841_tn.jpg
+  - url: /images/maps/ireland_poverty_1841.jpg
+    image_path: /images/maps/ireland_poverty_1841_tn.jpg
     alt: "a map of poverty in ireland in the 1840s"
     title: "Mapping the concentrations of poverty in ireland in 1841"
 ---
