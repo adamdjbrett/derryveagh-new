@@ -21,7 +21,7 @@ Thou alike art Lord alone.
 2\. Pity then Thy guiltless creatures       \\
 Who, not less, man’s sufferings share       \\
 For our sins it is they perish       \\
-Let them profit by our prayer.       \\
+Let them profit by our prayer.       
 
 3\. Cast Thine eyes of love and mercy       \\
 On the misery of the land       \\
@@ -36,12 +36,12 @@ Bid the grievous murrain<sup>[1](#myfootnote1)</sup> cease.       \\
 5\. Hear and grant the supplications       \\
 Like a cloud of incense, sent       \\
 Up towards Thy seat of Mercy       \\
-Through the forty days of Lent       \\
+Through the forty days of Lent      
 
 6 And at last to all Thy servants       \\
 When earth’s troubles shall be o’er       \\
 Give, O Triune God, a portion       \\
-With Thyself for evermore.       \\
+With Thyself for evermore.       
 
 <a name="myfootnote1">1</a>: Footnote content goes here \* murrain = disease       \\
 

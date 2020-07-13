@@ -8,8 +8,6 @@ tags:
   - Derryveagh
   - Donegal
 ---
-### Aftermath: A View of Derryveagh
-
 Since Mr. Adair depopulated Derryveigh, and gave it over to silence, the roads have been neglected, and have become rather difficult for a car. The relief works in famine time have been mainly road-making, and there are smooth hard roads through the hills in all directions, so the people complain of roads that would not be counted so very bad in the Canadian backwoods.
 <!--more--> However, the difficulty being of a rocky nature, we left the car at the house of a dumb man, the only one of the inhabitants spared by Adair. He and his sister, also dumb, lived together on the mountain solitudes. She is dead, and a relative, the daughter of one of the evicted people, has come to keep house for him. He made us very welcome, seeing to it that the horse was put up and fed with sheaf oats. I and my guides, for we were now joined by the man who had had the oats to fan - he had got his brother to take his place and came a short cut across the hills to meet us - so we all three set out to walk over Derryveigh.  
 
