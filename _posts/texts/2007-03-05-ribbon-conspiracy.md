@@ -16,6 +16,6 @@ It is a fact, the bitter truth of which has been felt and can be attested by man
 
 It is not my intention to enter at present upon any dissertation on this curious and strange phnomenon; neither is it my intention to enter into any anlaysis of the causes which produced this state of things. We must look back into the history of Ireland for these. Would that some abler hand than mine would investigate and lay bare the truth!  
 
-William Steuart Trench  
-_Realities of Irish Life_  
+William Steuart Trench      \\
+_Realities of Irish Life_      \\
 1868

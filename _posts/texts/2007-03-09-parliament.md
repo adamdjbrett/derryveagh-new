@@ -14,5 +14,5 @@ Motion made and Question proposed:
 <!--more-->
 The House _divided_:- Ayes 23; Noes 88: Majority 65
 
-House of Commons
-July 1, 1861
+House of Commons    \\
+July 1, 1861    

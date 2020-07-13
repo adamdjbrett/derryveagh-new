@@ -19,6 +19,6 @@ break off the wind." "That was Jamie Doherty’s, he that died on the road-side 
 And this has been done; human beings have died outside under the sky for no crime, and this under the protection of English law. Many of these people lost their reason, and are in the asylum at Letterkenny. Some are still coshering here and there among their charitable neighbors, while many are bitter hearted exiles across the sea. After walking up and down amid this pitiful desolation, and hearing many a heart-rending incident connected with the eviction, a sudden squall of hail came on, and we were obliged to take shelter on the lee side of a ruined wall till it blew over. To while away the time one of the guides told me of a local song made on the eviction, the refrain being, "Five hundred thousand curses on cruel  
 John Adair."  
 
-Letters of "Norah"  
-On Her Tour Through Ireland  
+Letters of "Norah"      \\
+On Her Tour Through Ireland      \\
 By Margaret Dixon McDougall

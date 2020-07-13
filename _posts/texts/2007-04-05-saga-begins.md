@@ -12,6 +12,6 @@ Adair first saw Glenveagh in 1857 wheile on a tour of the area and, in his own w
 <!--more-->
 He purchased the rent of Derryveagh and Glendowan in 1857 and bought out the intgerests of the major tenants. He also bought from the ecxclesastical commissioner the lands from Gartan to Devlin. By 1859, the estated totalled 11,300 hectares. (_Ed. Note_: 1 hectare = 2.471054 acres = 27,922.9102 acres)  
 
-Heritage Service  
-_Glenveagh National Park: A Visitor’s Guide_  
+Heritage Service      \\
+_Glenveagh National Park: A Visitor’s Guide_      \\
 1996

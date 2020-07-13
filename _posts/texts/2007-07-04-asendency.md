@@ -13,7 +13,7 @@ The lords and other landowners of Ireland, known, together with their relations 
 <!--more-->
 In short, the Ascendancy was a 'doomed aristocracy'...And while they suffered misfortunes, they never ceased to enjoy life; along with the tragedy went a light-hearted gaiety, with an abundance of absurd, bizzare and hilarious incidents.  
 
-Mark Bence-Jones  
-Introduction  
-_Twilight of the Ascendancy_  
+Mark Bence-Jones      \\
+Introduction      \\
+_Twilight of the Ascendancy_      \\
 1987

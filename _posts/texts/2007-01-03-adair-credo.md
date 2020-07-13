@@ -17,6 +17,6 @@ My tenants know that much larger rents could have been had, and that the larger 
 
 I trust for thier own sake as well as mine that the tenancy will not be misled by the wicked and unfounded agitation so prevalent, and which lies at the bottom of this address. It can only end, if they do, in their certain ruin, for I will, at all costs, maintain my rights. For myself, if driven to part with my property ...I can fortunately turn to America where the good sense and honesty of the people have taught the Irish race that a socialist revolution or the robbery of one class is impossible."  
 
-John George Adair  
-Letter to Fr. Thomas Murphy  
+John George Adair       \\
+Letter to Fr. Thomas Murphy       \\
 October 25, 1879

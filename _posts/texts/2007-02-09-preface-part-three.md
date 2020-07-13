@@ -16,6 +16,6 @@ What I have written is, certainly, a curious introduction to a story: but mine i
 
 I may remark in conclusion, that the principal incidents are, to a degree, in accordance with truth. I earnestly hope none of my peasant countryment shall evermore suffer the tyranny, or experiece the mister of the VICTIMS OF GLENVEIGH.  
 
-P.S. Cassidy  
-Brooklyn, NY  
+P.S. Cassidy      \\
+Brooklyn, NY      \\
 February 1870

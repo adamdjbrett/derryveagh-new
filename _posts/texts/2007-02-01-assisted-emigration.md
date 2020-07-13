@@ -22,8 +22,8 @@ The assisted emigration schemes fell off dramatically until they resume in the d
 
 Indeed, questions are begged: Did WS Trench’s nephew, John George Adair, have any advice or foreknowledge that by April 1861, "assisted emigration" by the Donegal Relief Fund could or would be used, in the end, to "humanely" dispose of Derryveagh’s youth? Could he _not_ have been aware of the strategy? Were there humane options other than "assisted emigration"?  
 
-Research from:  
-Gerard Lyne  
-_The Lansdowne Estate in Kerry_  
-_Under W.S. Trench, 1849-1872_  
+Research from:       \\
+Gerard Lyne       \\
+_The Lansdowne Estate in Kerry_       \\
+_Under W.S. Trench, 1849-1872_       \\
 2001

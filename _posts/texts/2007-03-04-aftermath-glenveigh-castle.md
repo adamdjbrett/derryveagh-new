@@ -16,6 +16,6 @@ No place could be imagined more utterly alone than Glenveigh Castle. The utter s
 
 As we drove home through the mountains I noticed that Mukish wrapped herself in the misty folds of her veil. Soon after the storm rolled down the mountain sides and chased us home.  
 
-Letters of "Norah"  
-On Her Tour Through Ireland  
+Letters of "Norah"      \\
+On Her Tour Through Ireland      \\
 By Margaret Dixon McDougall
