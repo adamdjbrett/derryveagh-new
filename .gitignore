@@ -3,10 +3,14 @@
 # Edit at https://www.gitignore.io/?templates=jekyll
 
 ### Jekyll ###
+vendor/
 _site/
+.bundle/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 .lock
+Gemfile.lock
+
 
 # End of https://www.gitignore.io/api/jekyll
