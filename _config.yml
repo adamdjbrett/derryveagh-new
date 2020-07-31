@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "THEN & NOW"
 name                     : "Robert Spiegelman"
 description              : "In April 1861, over 250 tennants were evicted from their homes Derryveagh in Donegal, Ireland by Jack Adair. Adair‘s depoulation of the region sparked a transcontiental firestorm.."
-url                      : https://derryveagh.theological.me
+url                      : https://www.derryveagh.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : adamdjbrett/derryveagh-new
 teaser                   : /images/derryveagh-teaser.jpg
