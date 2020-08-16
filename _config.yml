@@ -137,7 +137,7 @@ footer:
       icon: "fab fa-fw fa-youtube-square"
       url: "https://youtube.com/c/IndigenousValuesInitiative"
     - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+      icon: "fas fa-fw fa-link"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
