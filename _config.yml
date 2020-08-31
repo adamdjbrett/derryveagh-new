@@ -144,7 +144,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: https://www.instagram.com/indigenousvalues/
+      # url: "https://instagram.com/"
 
 
 # Reading Files
