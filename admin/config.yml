@@ -3,7 +3,6 @@ backend:
   repo: adamdjbrett/derryveagh-new
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
-
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -51,7 +50,6 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Categories', name: 'categories', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'string' }
-      - { label: 'Gallery use Markdown format', name: 'gallery', widget: 'markdown' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'galleries'
     label: 'Galleries'
@@ -63,11 +61,10 @@ collections:
     fields:
  #     - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Excerpt Separator', name: 'excerpt_separator', widget: 'string' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Categories', name: 'categories', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'string' }
-      - { label: 'Gallery use Markdown format', name: 'gallery', widget: 'markdown' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'page'
     label: 'Page'
