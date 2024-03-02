@@ -8,8 +8,8 @@ tags:
   - Derryveagh
   - Donegal
 gallery:
-  - url: /images/maps/eviction-zone.jpg
-    image_path: /images/maps/eviction-zone_tn.jpg
+  - url: /images/maps/eviction-zone.webp
+    image_path: /images/maps/eviction-zone_tn.webp
     alt: "google map of evictions"
     title: "Eviction Zone"
 ---

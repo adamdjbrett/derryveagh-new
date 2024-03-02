@@ -4,7 +4,7 @@ excerpt: "Contacting Derryveagh Evictions Then and Now"
 permalink: /contact/
 ---
 
-![April was the Month of the Shattered Hearth](/images/section_4.jpg)
+![April was the Month of the Shattered Hearth](/images/section_4.webp)
 
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkzrqwy" method="post">
 <p><label for="Subject">Message Type:</label><br />

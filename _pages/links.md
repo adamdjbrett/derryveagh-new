@@ -4,7 +4,7 @@ excerpt: "learn more about the Derryveagh Evictions"
 permalink: /links/
 ---
 
-![April was the Month of the Shattered Hearth](/images/section_6.jpg)
+![April was the Month of the Shattered Hearth](/images/section_6.webp)
 
 ## DISPOSSESSION AND ITS DISCONTENTS
 
@@ -15,7 +15,7 @@ permalink: /links/
 
 ### RESOURCES & LINKS
 
-![April was the Month of the Shattered Hearth](/images/section_7.jpg)
+![April was the Month of the Shattered Hearth](/images/section_7.webp)
 
 #### May McClintock’s Classic: _After the Battering Ram_  
 [Download PDF (4mb)](/media/files/McClintock_4MG.pdf)  
@@ -38,13 +38,13 @@ permalink: /links/
   - [Landlords of Donegal (Donegal Library)](http://web.archive.org/web/20090213065817/http://www.donegal-library.ie/memory/landlords.htm)  
   - [Emigrations from King’s County to Australia (Harrison)](http://web.archive.org/web/20090213065817/http://www.irishmidlandsancestry.com/content/offaly/community/kings-quinnsland.htm)  
   - [Adair & The County Laois Connection (Michael Dempsey)](http://web.archive.org/web/20090213065817/http://www.barrowvale.com/abbeyview/history.asp "Adair & The County Laois Connection")  
-  - [Adair’s Seat in Queen’s County (nr. Ballybrittas)](http://web.archive.org/web/20090213065817/http://www.botanicgardens.ie/herb/census/philips/laois.jpg)  
+  - [Adair’s Seat in Queen’s County (nr. Ballybrittas)](http://web.archive.org/web/20090213065817/http://www.botanicgardens.ie/herb/census/philips/laois.webp)  
   - [WS Trench & The Shirley Estate (Carrickmacross.ie)](http://web.archive.org/web/20090213065817/http://carrickmacross.ie/html/About_Carrick/shirley.asp)  
   - [The Letters of "Norah" On Her Tour through Ireland -- Eyewitness reports from the aftermath (Margaret Dixon McDougall)](http://web.archive.org/web/20090213065817/http://explorion.net/m.d.mcdougall-letters-norah-tour-through-ireland/index.html)  
   - [Glenveigh: victims of vengeance (Patrick Sarsfield Cassidy)](http://web.archive.org/web/20090213065817/http://www.letrs.indiana.edu/cgi/t/text/text-idx?c=wright2;idno=wright2-0475)  
 
 
-![April was the Month of the Shattered Hearth](/images/section_8.jpg)
+![April was the Month of the Shattered Hearth](/images/section_8.webp)
 
 #### RELATED THEMES
   - [An American Dispossession: The Sullivan-Clinton Campaign (Robert Spiegelman)](http://sullivanclinton.com/)  
@@ -54,7 +54,7 @@ permalink: /links/
   - [Gardens 'R Us: Another "Eviction-Free" Zone!](http://web.archive.org/web/20090213065817/http://www.irelandseye.com/aarticles/travel/attractions/gardens/glenv.shtm)  
   - [Sligo Heritage Site by Joe McGowan, with items on the region’s dispossessions.](http://web.archive.org/web/20090213065817/http://www.sligoheritage.com/)  
 
-![Evicted man cries on his shovel in the fog](/images/derryveagh-sidebar.png)
+![Evicted man cries on his shovel in the fog](/images/derryveagh-sidebar.webp)
 
 ##### WHERE TO STAY
   - The **Grainan B&B;** at Bridgend is the kindest, most convenient and affordable place to stay in north Donegal. And with stunning views!

@@ -8,8 +8,8 @@ tags:
   - Derryveagh
   - Donegal
 gallery:
-  - url: /images/maps/ireland_cromwell01.jpg
-    image_path: /images/maps/ireland_cromwell01_tn.jpg
+  - url: /images/maps/ireland_cromwell01.webp
+    image_path: /images/maps/ireland_cromwell01_tn.webp
     alt: "Catholicism in Ireland"
     title: "Mapping Ireland’s shift towards Catholicism"
 ---

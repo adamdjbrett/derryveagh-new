@@ -8,7 +8,7 @@ tags:
   - presentations
 ---
 
-![April was the Month of the Shattered Hearth](/images/section_1.jpg)
+![April was the Month of the Shattered Hearth](/images/section_1.webp)
 
 ## 2007 Events
 ### APRIL, NYC: ACIS Conference

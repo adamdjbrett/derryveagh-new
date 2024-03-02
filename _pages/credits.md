@@ -4,7 +4,7 @@ excerpt: "Thanks to everyone who makes this project successful"
 permalink: /credits/
 ---
 
-![April was the Month of the Shattered Hearth](/images/section_5.jpg)
+![April was the Month of the Shattered Hearth](/images/section_5.webp)
 
 ## Updated Site by:
   - Robert Spiegelman
