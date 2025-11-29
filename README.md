@@ -1,4 +1,7 @@
 # derry-veagh-archive
+
+[![Deploy Jekyll to XMIT](https://github.com/adamdjbrett/derryveagh-new/actions/workflows/xmit-deploy.yml/badge.svg)](https://github.com/adamdjbrett/derryveagh-new/actions/workflows/xmit-deploy.yml)
+
 archive of derryveagh.com
 
 # To Do
