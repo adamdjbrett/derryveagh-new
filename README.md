@@ -1,7 +1,8 @@
-# derry-veagh-archive
+# Archival Version of [derryveagh.com](https://derryveagh.com)
 
 [![Deploy Jekyll to XMIT](https://github.com/adamdjbrett/derryveagh-new/actions/workflows/xmit-deploy.yml/badge.svg)](https://github.com/adamdjbrett/derryveagh-new/actions/workflows/xmit-deploy.yml)
 
+hosted on [xmit.co](https://xmit.co)
 archive of derryveagh.com
 
 # To Do
