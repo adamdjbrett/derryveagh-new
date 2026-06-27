@@ -25,7 +25,7 @@ jobs:
       XMIT_SITE: derryveagh.com@289 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -45,9 +45,9 @@ jobs:
           ls -1 _site | head -n 20
 
       - name: Setup Node.js (for XMIT CLI)
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Deploy to XMIT (CLI)
         env:
