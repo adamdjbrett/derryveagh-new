@@ -1,4 +1,6 @@
 ---
+author: Margaret Dixon McDougall
+author_profile: false
 title: "Aftermath: Interview with an Evicted Woman"
 excerpt_separator: "<!--more-->"
 categories:

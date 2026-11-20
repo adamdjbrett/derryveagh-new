@@ -1,4 +1,6 @@
 ---
+author: John George Adair
+author_profile: false
 title: "Adair’s Credo: 'I will, at all costs, maintain my rights'"
 excerpt_separator: "<!--more-->"
 categories:

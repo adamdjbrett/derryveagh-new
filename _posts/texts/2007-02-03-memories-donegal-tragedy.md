@@ -1,4 +1,6 @@
 ---
+author: B.J.B.
+author_profile: false
 title: "In place of this fine population is to-day a deer-forest..."
 excerpt_separator: "<!--more-->"
 categories:

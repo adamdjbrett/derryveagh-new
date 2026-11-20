@@ -1,4 +1,6 @@
 ---
+author: Terence Dooley
+author_profile: false
 title: "Self-Consuming Consumers"
 excerpt_separator: "<!--more-->"
 categories:

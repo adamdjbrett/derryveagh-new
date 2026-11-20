@@ -1,4 +1,6 @@
 ---
+author: Heritage Service
+author_profile: false
 title: "The Saga Begins: A Way to Say Mine"
 excerpt_separator: "<!--more-->"
 categories:

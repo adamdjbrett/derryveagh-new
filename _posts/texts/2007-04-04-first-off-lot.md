@@ -1,4 +1,6 @@
 ---
+author: Londonderry Standard
+author_profile: false
 title: "First off the Lot..."
 excerpt_separator: "<!--more-->"
 categories:

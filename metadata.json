@@ -2,17 +2,4 @@
 layout: null
 sitemap: false
 ---
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": {{ site.url | append: "/#website" | jsonify }},
-  "name": {{ site.title | default: site.name | jsonify }},
-  "description": {{ site.description | strip_newlines | jsonify }},
-  "url": {{ site.url | jsonify }},
-  "inLanguage": {{ site.locale | slice: 0, 2 | default: "en" | jsonify }},
-  "publisher": {
-    "@type": "Organization",
-    "name": {{ site.title | default: site.name | jsonify }},
-    "url": {{ site.url | jsonify }}
-  }
-}
+{{ nil | scholarly_graph: site | jsonify }}

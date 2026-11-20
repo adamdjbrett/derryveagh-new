@@ -1,8 +1,19 @@
 <meta charset="utf-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="
+  script-src-elem 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://www.youtube.com https://s.ytimg.com https://kit.fontawesome.com https://www.googletagmanager.com;
+  connect-src 'self' https://static.cloudflareinsights.com https://cloudflareinsights.com https://www.youtube.com https://www.youtube-nocookie.com https://kit.fontawesome.com https://ka-f.fontawesome.com https://cdn.jsdelivr.net https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com https://stats.g.doubleclick.net;
+  frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://drive.google.com https://player.bilibili.com https://www.googletagmanager.com;
+  style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://kit.fontawesome.com https://ka-f.fontawesome.com https://use.fontawesome.com;
+  font-src 'self' data: https://cdn.jsdelivr.net https://ka-f.fontawesome.com https://use.fontawesome.com;
+">
 
 {% include seo.html %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title | escape }} – Atom">
+<link rel="alternate" type="application/rss+xml" href="{{ '/feed.rss' | relative_url }}" title="{{ site.title | escape }} – RSS">
+<link rel="alternate" type="application/feed+json" href="{{ '/feed.json' | relative_url }}" title="{{ site.title | escape }} – JSON Feed">
+<link rel="alternate" type="text/plain" href="{{ '/twtxt.txt' | relative_url }}" title="{{ site.title | escape }} – twtxt">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +23,9 @@
 </script>
 
 <!-- For all browsers -->
+{% unless site.footer_scripts %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
+{% endunless %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <!--[if IE]>

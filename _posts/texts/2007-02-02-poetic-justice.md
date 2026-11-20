@@ -1,4 +1,6 @@
 ---
+author: William Allingham
+author_profile: false
 title: "Poetic Justice"
 excerpt_separator: "<!--more-->"
 categories:

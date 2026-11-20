@@ -50,8 +50,8 @@
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 <meta name="description" content="{{ seo_description }}">
 
-{% if author.name %}
-  <meta name="author" content="{{ author.name | default: author }}">
+{% if author %}
+  <meta name="author" content="{{ author.name | default: author | escape }}">
 {% endif %}
 
 <meta property="og:type" content="{{ og_type }}">
@@ -117,22 +117,6 @@
 {% if paginator.next_page %}
   <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {% endif %}
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    {% if site.social.type == "Organization" %}
-      "@type": "Organization",
-      "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
-      "logo": {{ site_og_image | jsonify }}{% endif %}
-    {% else %}
-      "@type": "Person",
-      "name": {{ site.social.name | default: site.name | jsonify }},
-      "url": {{ '/' | absolute_url |jsonify }}{% if site.social.links %},
-      "sameAs": {{ site.social.links | jsonify }}{% endif %}
-    {% endif %}
-  }
-</script>
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />

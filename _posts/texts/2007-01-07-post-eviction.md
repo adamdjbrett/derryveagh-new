@@ -1,4 +1,6 @@
 ---
+author: Herbert W.K. Sterritt
+author_profile: false
 title: "Post-Eviction Ironies: So Stately and Grey"
 excerpt_separator: "<!--more-->"
 categories:

@@ -10,7 +10,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .lock
-Gemfile.lock
 .DS_Store
 
 # End of https://www.gitignore.io/api/jekyll

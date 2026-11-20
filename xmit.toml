@@ -1,0 +1,18 @@
+[[headers]]
+name = "referrer-policy"
+value = "strict-origin-when-cross-origin"
+
+[[headers]]
+name = "content-type"
+value = "application/atom+xml; charset=utf-8"
+on = '^/feed\.xml$'
+
+[[headers]]
+name = "content-type"
+value = "application/rss+xml; charset=utf-8"
+on = '^/feed\.rss$'
+
+[[headers]]
+name = "content-type"
+value = "application/feed+json; charset=utf-8"
+on = '^/feed\.json$'

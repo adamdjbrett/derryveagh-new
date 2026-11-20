@@ -1,4 +1,7 @@
 ---
+author: Uncredited
+author_uncredited: true
+author_profile: false
 title: "On the First Night, and counting..."
 excerpt_separator: "<!--more-->"
 categories:

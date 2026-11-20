@@ -1,4 +1,6 @@
 ---
+author: Cornelia Wadsworth Ritchie Adair
+author_profile: false
 title: "Cornelia’s Credo"
 excerpt_separator: "<!--more-->"
 categories:

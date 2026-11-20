@@ -1,4 +1,6 @@
 ---
+author: P.S. Cassidy
+author_profile: false
 title: "Preface to a Tragedy: Part One"
 excerpt_separator: "<!--more-->"
 categories:

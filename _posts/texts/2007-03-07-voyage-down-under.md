@@ -1,4 +1,6 @@
 ---
+author: May McClintock
+author_profile: false
 title: "After the Battering Ram: The Voyage Down Under"
 excerpt_separator: "<!--more-->"
 categories:

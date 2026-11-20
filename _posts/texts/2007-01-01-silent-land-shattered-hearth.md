@@ -1,4 +1,6 @@
 ---
+author: May McClintock
+author_profile: false
 title: "Silent Land: Shattered Hearth"
 excerpt_separator: "<!--more-->"
 categories:

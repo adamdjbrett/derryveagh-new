@@ -1,0 +1,19 @@
+The Times:
+  name: The Times
+  type: Organization
+House of Commons:
+  name: House of Commons
+  type: Organization
+Londonderry Standard:
+  name: Londonderry Standard
+  type: Organization
+Heritage Service:
+  name: Heritage Service
+  type: Organization
+Sydney Morning Herald:
+  name: Sydney Morning Herald
+  type: Organization
+Coillte:
+  name: Coillte
+  type: Organization
+  url: https://www.coillte.ie/

@@ -1,4 +1,6 @@
 ---
+author: James McFadden
+author_profile: false
 title: "The Farewell Speech:...Till a letter comes from you"
 excerpt_separator: "<!--more-->"
 categories:

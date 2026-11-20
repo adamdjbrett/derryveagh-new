@@ -1,4 +1,6 @@
 ---
+author: Anonymous Bard
+author_profile: false
 title: "500,000 Curses: Cruel John Adair"
 excerpt_separator: "<!--more-->"
 categories:

@@ -232,6 +232,10 @@
 
 .feature__wrapper {
   @include clearfix();
+
+  .archive__item-teaser {
+    z-index: 1; // Keep the image link above the full-card button overlay.
+  }
   margin-bottom: 2em;
   border-bottom: 1px solid $border-color;
 

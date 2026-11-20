@@ -1,0 +1,4 @@
+{%- assign byline = include.entry | scholarly_author: site -%}
+{% if byline %}
+<span class="p-author h-card h-author">{% if byline.url and include.compact != 'true' %}<a class="p-name u-url" href="{{ byline.url | escape }}" rel="author">{{ byline.name | escape }}</a>{% else %}<span class="p-name">{{ byline.name | escape }}</span>{% if byline.url %}<link class="u-url" itemprop="url" href="{{ byline.url | escape }}">{% endif %}{% endif %}</span>
+{% else %}Uncredited{% endif %}

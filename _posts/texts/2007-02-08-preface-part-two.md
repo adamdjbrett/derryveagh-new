@@ -1,4 +1,6 @@
 ---
+author: Thomas Neilson Underwood
+author_profile: false
 title: "Preface to a Tragedy Part Two"
 excerpt_separator: "<!--more-->"
 categories:

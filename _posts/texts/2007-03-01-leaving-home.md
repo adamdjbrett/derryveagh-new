@@ -1,4 +1,6 @@
 ---
+author: A.M. Sullivan
+author_profile: false
 title: "Leaving Home: On the Road to Exile"
 excerpt_separator: "<!--more-->"
 categories:

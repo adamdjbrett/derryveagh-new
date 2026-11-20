@@ -1,4 +1,6 @@
 ---
+author: Sydney Morning Herald
+author_profile: false
 title: "A Welcome Down Under: At the Immigration Depot"
 excerpt_separator: "<!--more-->"
 categories:

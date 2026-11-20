@@ -1,4 +1,6 @@
 ---
+author: House of Commons
+author_profile: false
 title: "News Reaches Parliament: Should Adair Lose his Titles?"
 excerpt_separator: "<!--more-->"
 categories:

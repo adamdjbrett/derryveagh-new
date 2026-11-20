@@ -1,4 +1,6 @@
 ---
+author: The Times
+author_profile: false
 title: "Bad Reviews: From the _Times_ of London"
 excerpt_separator: "<!--more-->"
 categories:

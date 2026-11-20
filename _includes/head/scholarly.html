@@ -1,0 +1,31 @@
+{%- assign graph = page | scholarly_graph: site -%}
+{%- assign entity = graph['@graph'] | last -%}
+{%- assign title = entity.name | escape -%}
+{%- assign url = entity.url | escape -%}
+{%- assign author = entity.author.name | escape -%}
+<link rel="cite-as" href="{{ url }}">
+{% if entity.author.url %}<link rel="author" href="{{ entity.author.url | escape }}">{% endif %}
+{% if page.collection == 'posts' %}
+<link rel="type" href="https://schema.org/BlogPosting">
+<link rel="describedby" type="application/ld+json" href="{{ page.url | append: '/' | replace: '//', '/' | append: 'metadata.json' | relative_url }}">
+{% elsif page.url == '/' %}
+<link rel="describedby" type="application/ld+json" href="{{ '/metadata.json' | relative_url }}">
+{% endif %}
+<meta property="zotero:itemType" content="{% if page.collection == 'posts' %}blogPost{% else %}webpage{% endif %}">
+<meta name="citation_title" content="{{ title }}">
+{% if entity.author %}<meta name="citation_author" content="{{ author }}">{% endif %}
+<meta name="citation_language" content="{{ entity.inLanguage | escape }}">
+<meta name="citation_public_url" content="{{ url }}">
+<meta name="citation_fulltext_html_url" content="{{ url }}">
+{% if entity.datePublished %}<meta name="citation_publication_date" content="{{ entity.datePublished }}">{% endif %}
+{% if page.doi %}<meta name="citation_doi" content="{{ page.doi | escape }}">{% endif %}
+<meta name="DC.title" property="dc:title" content="{{ title }}">
+{% if entity.author %}<meta name="DC.creator" property="dc:creator" content="{{ author }}">{% endif %}
+<meta name="DC.identifier" property="dc:identifier" content="{{ url }}">
+<meta name="DC.language" property="dc:language" content="{{ entity.inLanguage | escape }}">
+<meta name="DC.type" property="dc:type" content="Text">
+<meta name="DCTERMS.isPartOf" content="{{ site.title | escape }}">
+{% if entity.description %}<meta name="DC.description" property="dc:description" content="{{ entity.description | escape }}">{% endif %}
+{% if entity.datePublished %}<meta name="DC.date" property="dc:date" content="{{ entity.datePublished }}">{% endif %}
+{% if entity.dateModified %}<meta name="DCTERMS.modified" content="{{ entity.dateModified }}">{% endif %}
+<script type="application/ld+json">{{ graph | jsonify | replace: '<', '\u003c' }}</script>

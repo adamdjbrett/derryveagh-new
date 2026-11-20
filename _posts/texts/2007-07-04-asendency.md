@@ -1,4 +1,6 @@
 ---
+author: Mark Bence-Jones
+author_profile: false
 title: "Ascendancy"
 excerpt_separator: "<!--more-->"
 categories:

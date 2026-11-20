@@ -1,4 +1,6 @@
 ---
+author: William Steuart Trench
+author_profile: false
 title: "Realities of Irish Life: The Ribbon Conspiracy"
 excerpt_separator: "<!--more-->"
 categories:

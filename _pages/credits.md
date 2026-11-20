@@ -9,7 +9,7 @@ permalink: /credits/
 ## Updated Site by:
   - Robert Spiegelman
   - Hosted by [Indigenous Values Initiative](https://indigenousvalues.org/)
-  - Web Development and Administration by [Adam DJ Brett](https://wwww.adamdjbrett.com)
+  - Web Development and Administration by [Adam DJ Brett](https://adamdjbrett.com)
   - Supported by [Indigenous Values Initiative](https://indigenousvalues.org/) and [American Indian Law Alliance](https://aila.ngo)
 
 ## Content Credits

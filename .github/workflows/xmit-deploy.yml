@@ -30,7 +30,6 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
           bundler-cache: true
 
       - name: Build Jekyll site
@@ -42,6 +41,7 @@ jobs:
             echo "_site directory missing after build" >&2
             exit 1
           fi
+          bundle exec ruby _scripts/verify_metadata.rb
           ls -1 _site | head -n 20
 
       - name: Setup Node.js (for XMIT CLI)

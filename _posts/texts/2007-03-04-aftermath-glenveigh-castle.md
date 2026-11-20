@@ -1,4 +1,6 @@
 ---
+author: Margaret Dixon McDougall
+author_profile: false
 title: "Aftermath: A View of Glenveigh Castle..."
 excerpt_separator: "<!--more-->"
 categories:

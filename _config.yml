@@ -10,8 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "derry" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "derry"
 
 # Site Settings
@@ -20,8 +19,8 @@ title                    : "DERRYVEAGH EVICTIONS"
 title_separator          : "-"
 subtitle                 : "THEN & NOW"
 name                     : "Robert Spiegelman"
-description              : "In April 1861, over 250 tennants were evicted from their homes Derryveagh in Donegal, Ireland by Jack Adair. Adair‘s depoulation of the region sparked a transcontiental firestorm.."
-url                      : https://www.derryveagh.com
+description              : "A digital humanities project on the April 1861 Derryveagh evictions in County Donegal, Ireland, and their transatlantic aftermath."
+url                      : https://derryveagh.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : adamdjbrett/derryveagh-new
 teaser                   : /images/derryveagh-teaser.webp
@@ -83,17 +82,10 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : "UA-96037973-7"
-    anonymize_ip         : # true, false (default)
-
-
 # Site Author
 author:
   name             : "Robert Spiegelman"
+  uri              : "https://sullivanclinton.com/bio/"
   avatar           : /images/robert-spiegelman-250x250.webp
   bio              : "Bob Spiegelman has been a freelance author and film producer, screenwriter, project-developer, multimedia advisor, research director and story consultant on a growing array of film, museum and multimedia projects."
   location         : "New York City"
@@ -163,7 +155,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/vendor
   - Capfile
-  - CHANGELOG
+  - changelog.md
   - config
   - Gemfile
   - Gruntfile.js

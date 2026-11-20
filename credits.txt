@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: /credits.txt
+sitemap: false
+---
+{{ site.title }}
+Creator: Robert Spiegelman — https://sullivanclinton.com/bio/
+Sponsor: Indigenous Values Initiative — https://indigenousvalues.org/
+Additional support: American Indian Law Alliance — https://aila.ngo/
+Web development and administration: Adam DJ Brett — https://adamdjbrett.com/
+Original site: Clint Fisher Art, readymade99 and Robert Spiegelman.
+Content, photography and acknowledgments: {{ '/credits/' | absolute_url }}

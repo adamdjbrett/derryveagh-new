@@ -1,4 +1,6 @@
 ---
+author: Hugh Dorian
+author_profile: false
 title: "A Suffering Consoled, Explained or Rationalized?"
 excerpt_separator: "<!--more-->"
 categories:
