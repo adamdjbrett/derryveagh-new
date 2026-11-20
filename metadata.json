@@ -2,4 +2,4 @@
 layout: null
 sitemap: false
 ---
-{{ nil | scholarly_graph: site | jsonify }}
+{% include head/scholarly.html format="json" %}

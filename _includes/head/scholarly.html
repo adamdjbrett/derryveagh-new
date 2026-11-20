@@ -1,31 +1,105 @@
-{%- assign graph = page | scholarly_graph: site -%}
-{%- assign entity = graph['@graph'] | last -%}
-{%- assign title = entity.name | escape -%}
-{%- assign url = entity.url | escape -%}
-{%- assign author = entity.author.name | escape -%}
-<link rel="cite-as" href="{{ url }}">
-{% if entity.author.url %}<link rel="author" href="{{ entity.author.url | escape }}">{% endif %}
-{% if page.collection == 'posts' %}
+{%- assign entry = include.entry -%}
+{%- assign home = site.url | append: '/' -%}
+{%- assign hosted_root = '/' | absolute_url -%}
+{%- assign bio = site.author.uri | default: site.author.url -%}
+{%- assign creator_id = bio | append: '#person' -%}
+{%- assign language = entry.lang | default: site.locale | default: site.lang | default: 'en' -%}
+{%- if entry -%}
+  {%- assign title = entry.title | default: site.title | strip_html | normalize_whitespace -%}
+  {%- assign url = entry.canonical_url | default: entry.url | replace: '/index.html', '/' | absolute_url | replace_first: hosted_root, home -%}
+  {%- if entry.author_uncredited -%}
+    {%- assign author_name = nil -%}
+    {%- assign author_url = nil -%}
+  {%- elsif entry.author or entry.authors -%}
+    {%- capture author_name -%}{% include entry-author.html entry=entry field="name" %}{%- endcapture -%}
+    {%- capture author_url -%}{% include entry-author.html entry=entry field="url" %}{%- endcapture -%}
+    {%- capture author_type -%}{% include entry-author.html entry=entry field="type" %}{%- endcapture -%}
+  {%- else -%}
+    {%- assign author_name = site.author.name -%}
+    {%- assign author_url = bio -%}
+    {%- assign author_type = "Person" -%}
+  {%- endif -%}
+  {%- assign description = entry.description -%}
+  {%- if description == nil -%}{%- assign description = entry.excerpt -%}{%- endif -%}
+  {%- assign description = description | replace: '<', ' <' | strip_html | normalize_whitespace | strip | replace: '&lt;', '<' | replace: '&gt;', '>' | replace: '&quot;', '"' | replace: '&#39;', "'" | replace: '&amp;', '&' -%}
+  {%- assign published = entry.date | date: '%Y-%m-%d' -%}
+  {%- assign modified = entry.last_modified_at | default: entry.last_modified | date: '%Y-%m-%d' -%}
+  {%- assign image = entry.image.path | default: entry.image | default: entry.header.image | default: entry.header.teaser | default: entry.preview | default: site.teaser | default: site.logo -%}
+{%- endif -%}
+{%- capture graph -%}
+{"@context":"https://schema.org","@graph":[
+{"@id":{{ home | append: '#website' | jsonify }},
+  "@type":"WebSite",
+  "name":{{ site.title | jsonify }},
+  "url":{{ home | jsonify }},
+  "inLanguage":{{ site.locale | default: site.lang | default: 'en' | jsonify }},
+  "description":{{ site.description | strip_html | normalize_whitespace | jsonify }},
+  "creator":{"@id":{{ creator_id | jsonify }}},
+  "sponsor":{"@id":"https://indigenousvalues.org/#organization"},
+  "about":{"@id":{{ home | append: '#project' | jsonify }}},
+  "genre":"Digital humanities"},
+{"@id":{{ home | append: '#project' | jsonify }},
+  "@type":"ResearchProject",
+  "name":{{ site.title | jsonify }},
+  "url":{{ home | jsonify }},
+  "founder":{"@id":{{ creator_id | jsonify }}},
+  "sponsor":{"@id":"https://indigenousvalues.org/#organization"},
+  "subjectOf":{"@id":{{ home | append: '#website' | jsonify }}}},
+{"@id":"https://indigenousvalues.org/#organization",
+  "@type":"Organization",
+  "name":"Indigenous Values Initiative",
+  "url":"https://indigenousvalues.org/"},
+{"@type":"Person",
+  "@id":{{ creator_id | jsonify }},
+  "name":{{ site.author.name | jsonify }},
+  "url":{{ bio | jsonify }}}
+{%- if entry -%},
+{"@id":{{ url | append: '#metadata' | jsonify }},
+  "@type":"{% if entry.collection == 'posts' %}BlogPosting{% else %}WebPage{% endif %}",
+  "name":{{ title | jsonify }},
+  "url":{{ url | jsonify }},
+  "identifier":{% if entry.doi %}[{{ url | jsonify }},{"@type":"PropertyValue",
+  "propertyID":"DOI",
+  "value":{{ entry.doi | jsonify }}}]{% else %}{{ url | jsonify }}{% endif %},
+  "inLanguage":{{ language | jsonify }},
+  "isPartOf":{"@id":{{ home | append: '#website' | jsonify }}}
+{%- if author_name and author_name != empty -%},"author":{"@type":{{ author_type | jsonify }},"name":{{ author_name | jsonify }}{% if author_name == site.author.name %},"@id":{{ creator_id | jsonify }}{% endif %}{% if author_url and author_url != empty %},"url":{{ author_url | jsonify }}{% endif %}}{%- endif -%}
+{%- if entry.collection == 'posts' -%},"headline":{{ title | jsonify }}{%- endif -%}
+{%- if entry.description or entry.excerpt -%},"description":{{ description | jsonify }}{%- endif -%}
+{%- if published -%},"datePublished":{{ published | jsonify }}{%- endif -%}
+{%- if modified -%},"dateModified":{{ modified | jsonify }}{%- endif -%}
+{%- if image -%},"image":{{ image | absolute_url | replace_first: hosted_root, home | jsonify }}{%- endif -%}
+{%- if entry.citations -%},"citation":{{ entry.citations | jsonify }}{%- endif -%}}
+{%- endif -%}]}
+{%- endcapture -%}
+{%- assign graph = graph | strip_newlines -%}
+{%- if include.format == "json" -%}
+{{ graph }}
+{%- else -%}
+<link rel="cite-as" href="{{ url | escape }}">
+{% if author_url and author_url != empty %}<link rel="author" href="{{ author_url | escape }}">{% endif %}
+{% if entry.collection == 'posts' %}
 <link rel="type" href="https://schema.org/BlogPosting">
-<link rel="describedby" type="application/ld+json" href="{{ page.url | append: '/' | replace: '//', '/' | append: 'metadata.json' | relative_url }}">
-{% elsif page.url == '/' %}
+<link rel="describedby" type="application/ld+json" href="{{ entry.url | append: '/' | replace: '//', '/' | append: 'metadata.json' | relative_url }}">
+{% elsif entry.url == '/' %}
 <link rel="describedby" type="application/ld+json" href="{{ '/metadata.json' | relative_url }}">
 {% endif %}
-<meta property="zotero:itemType" content="{% if page.collection == 'posts' %}blogPost{% else %}webpage{% endif %}">
-<meta name="citation_title" content="{{ title }}">
-{% if entity.author %}<meta name="citation_author" content="{{ author }}">{% endif %}
-<meta name="citation_language" content="{{ entity.inLanguage | escape }}">
-<meta name="citation_public_url" content="{{ url }}">
-<meta name="citation_fulltext_html_url" content="{{ url }}">
-{% if entity.datePublished %}<meta name="citation_publication_date" content="{{ entity.datePublished }}">{% endif %}
-{% if page.doi %}<meta name="citation_doi" content="{{ page.doi | escape }}">{% endif %}
-<meta name="DC.title" property="dc:title" content="{{ title }}">
-{% if entity.author %}<meta name="DC.creator" property="dc:creator" content="{{ author }}">{% endif %}
-<meta name="DC.identifier" property="dc:identifier" content="{{ url }}">
-<meta name="DC.language" property="dc:language" content="{{ entity.inLanguage | escape }}">
+<meta property="zotero:itemType" content="{% if entry.collection == 'posts' %}blogPost{% else %}webpage{% endif %}">
+<meta name="citation_title" content="{{ title | escape }}">
+{% if author_name and author_name != empty %}<meta name="citation_author" content="{{ author_name | escape }}">{% endif %}
+<meta name="citation_language" content="{{ language | escape }}">
+<meta name="citation_public_url" content="{{ url | escape }}">
+<meta name="citation_fulltext_html_url" content="{{ url | escape }}">
+{% if published %}<meta name="citation_publication_date" content="{{ published }}">{% endif %}
+{% if entry.doi %}<meta name="citation_doi" content="{{ entry.doi | escape }}">{% endif %}
+<meta name="DC.title" property="dc:title" content="{{ title | escape }}">
+{% if author_name and author_name != empty %}<meta name="DC.creator" property="dc:creator" content="{{ author_name | escape }}">{% endif %}
+<meta name="DC.identifier" property="dc:identifier" content="{{ url | escape }}">
+<meta name="DC.language" property="dc:language" content="{{ language | escape }}">
 <meta name="DC.type" property="dc:type" content="Text">
 <meta name="DCTERMS.isPartOf" content="{{ site.title | escape }}">
-{% if entity.description %}<meta name="DC.description" property="dc:description" content="{{ entity.description | escape }}">{% endif %}
-{% if entity.datePublished %}<meta name="DC.date" property="dc:date" content="{{ entity.datePublished }}">{% endif %}
-{% if entity.dateModified %}<meta name="DCTERMS.modified" content="{{ entity.dateModified }}">{% endif %}
-<script type="application/ld+json">{{ graph | jsonify | replace: '<', '\u003c' }}</script>
+{% if description and description != empty %}<meta name="DC.description" property="dc:description" content="{{ description | escape }}">{% endif %}
+{% if published %}<meta name="DC.date" property="dc:date" content="{{ published }}">{% endif %}
+{% if modified %}<meta name="DCTERMS.modified" content="{{ modified }}">{% endif %}
+<script type="application/ld+json">{{ graph | replace: '<', '\u003c' }}</script>
+{%- endif -%}

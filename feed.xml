@@ -1,0 +1,40 @@
+---
+layout: null
+permalink: /feed.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"{% if site.lang %} xml:lang="{{ site.lang | xml_escape }}"{% endif %}>
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/feed.xml</id>
+  <title type="html">{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <author><name>{{ site.author.name | xml_escape }}</name>{% if site.author.email %}<email>{{ site.author.email | xml_escape }}</email>{% endif %}{% if site.author.uri %}<uri>{{ site.author.uri | xml_escape }}</uri>{% endif %}</author>
+  {%- assign posts = site.posts | sort: 'date' | reverse -%}
+  {%- assign limit = site.feed.posts_limit | default: 10 -%}
+  {%- for post in posts limit: limit %}
+  {%- assign url = post.url | prepend: site.url | absolute_url | xml_escape -%}
+  {%- assign title = post.title | smartify | strip_html | normalize_whitespace | xml_escape -%}
+  {%- capture name -%}{% include entry-author.html entry=post field="name" %}{%- endcapture -%}
+  {%- capture bio -%}{% include entry-author.html entry=post field="url" %}{%- endcapture -%}
+  {%- assign key = post.author | default: post.authors.first -%}
+  {%- assign email = site.data.authors[key].email -%}
+  {%- if name == site.author.name -%}{%- assign email = site.author.email -%}{%- endif -%}
+  <entry{% if post.lang %} xml:lang="{{ post.lang | xml_escape }}"{% endif %}>
+    <title type="html">{{ title }}</title>
+    <link href="{{ url }}" rel="alternate" type="text/html" title="{{ title }}"/>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+    <id>{{ post.id | prepend: site.url | absolute_url | xml_escape }}</id>
+    <content type="html" xml:base="{{ url }}">{{ post.content | strip | escape }}</content>
+    {% if name and name != empty %}<author><name>{{ name | xml_escape }}</name>{% if email %}<email>{{ email | xml_escape }}</email>{% endif %}{% if bio and bio != empty %}<uri>{{ bio | xml_escape }}</uri>{% endif %}</author>{% endif %}
+    {% for term in post.categories %}<category term="{{ term | xml_escape }}"/>{% endfor %}
+    {% for term in post.tags %}<category term="{{ term | xml_escape }}"/>{% endfor %}
+    {% assign summary = post.description | default: post.excerpt %}{% if summary and summary != empty %}<summary type="html">{{ summary | strip_html | normalize_whitespace | escape }}</summary>{% endif %}
+    {% assign image = post.image.path | default: post.image %}{% if image %}{% unless image contains '://' %}{% assign image = image | prepend: site.url %}{% endunless %}<media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ image | xml_escape }}"/><media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="{{ image | xml_escape }}"/>{% endif %}
+  </entry>
+  {%- endfor %}
+</feed>

@@ -1,4 +1,15 @@
-{%- assign byline = include.entry | scholarly_author: site -%}
-{% if byline %}
-<span class="p-author h-card h-author">{% if byline.url and include.compact != 'true' %}<a class="p-name u-url" href="{{ byline.url | escape }}" rel="author">{{ byline.name | escape }}</a>{% else %}<span class="p-name">{{ byline.name | escape }}</span>{% if byline.url %}<link class="u-url" itemprop="url" href="{{ byline.url | escape }}">{% endif %}{% endif %}</span>
+{%- assign key = include.entry.author | default: include.entry.authors.first -%}
+{%- assign record = site.data.authors[key] | default: key -%}
+{%- assign author_name = record.name | default: record | default: site.author.name -%}
+{%- assign author_url = record.url | default: record.uri -%}
+{%- if author_name == site.author.name -%}{%- assign author_url = site.author.uri | default: site.author.url -%}{%- endif -%}
+{%- if include.entry.author_uncredited -%}{%- assign author_name = nil -%}{%- assign author_url = nil -%}{%- endif -%}
+{%- case include.field -%}
+{%- when "name" -%}{{ author_name }}
+{%- when "url" -%}{{ author_url }}
+{%- when "type" -%}{{ record.type | default: "Person" }}
+{%- else -%}
+{% if author_name %}
+<span class="p-author h-card h-author">{% if author_url and include.compact != 'true' %}<a class="p-name u-url" href="{{ author_url | escape }}" rel="author">{{ author_name | escape }}</a>{% else %}<span class="p-name">{{ author_name | escape }}</span>{% if author_url %}<link class="u-url" itemprop="url" href="{{ author_url | escape }}">{% endif %}{% endif %}</span>
 {% else %}Uncredited{% endif %}
+{%- endcase -%}

@@ -1,0 +1,9 @@
+---
+---
+{%- assign post_url = page.url | remove: "metadata.json" -%}
+{%- assign entry = site.posts | where: "url", post_url | first -%}
+{%- unless entry -%}
+  {%- assign post_url = page.url | remove: "/metadata.json" -%}
+  {%- assign entry = site.posts | where: "url", post_url | first -%}
+{%- endunless -%}
+{% include head/scholarly.html entry=entry format="json" %}

@@ -18,7 +18,7 @@ layout: default
   {% include sidebar.html %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <link class="u-url" itemprop="url" href="{{ page | scholarly_url: site | escape }}">
+    <link class="u-url" itemprop="url" href="{% if page.canonical_url %}{{ page.canonical_url | absolute_url | escape }}{% else %}{{ page.url | prepend: site.url | absolute_url | escape }}{% endif %}">
     <meta class="p-name" itemprop="headline" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta class="dt-published" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}

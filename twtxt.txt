@@ -4,9 +4,9 @@ permalink: /twtxt.txt
 sitemap: false
 ---
 # {{ site.title }}
-# url = {{ page.url | absolute_url }}
+# url = {{ page.url | prepend: site.url | absolute_url }}
 {% assign posts = site.posts | sort: "date" | reverse -%}
 {% assign limit = site.feed.posts_limit | default: 10 -%}
 {% for post in posts limit: limit -%}
-{{ post.date | date_to_xmlschema }}	{{ post.title | strip_html | normalize_whitespace }} {{ post.url | absolute_url }}
+{{ post.date | date_to_xmlschema }}	{{ post.title | strip_html | normalize_whitespace }} {{ post.url | prepend: site.url | absolute_url }}
 {% endfor -%}

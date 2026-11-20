@@ -21,6 +21,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
+      JEKYLL_ENV: production
       # Target site/domain for XMIT deploy
       XMIT_SITE: derryveagh.com@289 
     steps:
@@ -33,6 +34,8 @@ jobs:
           bundler-cache: true
 
       - name: Build Jekyll site
+        env:
+          RUBY_YJIT_ENABLE: "1"
         run: bundle exec jekyll build
 
       - name: Verify build output

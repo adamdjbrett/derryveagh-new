@@ -1,0 +1,14 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="en-US">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ page.redirect.to | escape }}">
+<script>location={{ page.redirect.to | jsonify | replace: '<', '\u003c' }}</script>
+<meta http-equiv="refresh" content="0; url={{ page.redirect.to | escape }}">
+<meta name="robots" content="noindex">
+<h1>Redirecting&hellip;</h1>
+<a href="{{ page.redirect.to | escape }}">Click here if you are not redirected.</a>
+</html>

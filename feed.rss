@@ -7,18 +7,18 @@ sitemap: false
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <link>{{ '/' | absolute_url | xml_escape }}</link>
+    <link>{{ '/' | prepend: site.url | absolute_url | xml_escape }}</link>
     <description>{{ site.description | strip_html | normalize_whitespace | xml_escape }}</description>
-    <atom:link href="{{ page.url | absolute_url | xml_escape }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ page.url | prepend: site.url | absolute_url | xml_escape }}" rel="self" type="application/rss+xml"/>
     {%- assign posts = site.posts | sort: "date" | reverse %}
     {%- assign limit = site.feed.posts_limit | default: 10 %}
     {% for post in posts limit: limit %}
-    <item xml:base="{{ post.url | absolute_url | xml_escape }}">
+    <item xml:base="{{ post.url | prepend: site.url | absolute_url | xml_escape }}">
       <title>{{ post.title | strip_html | xml_escape }}</title>
-      <link>{{ post.url | absolute_url | xml_escape }}</link>
-      <guid isPermaLink="true">{{ post.url | absolute_url | xml_escape }}</guid>
+      <link>{{ post.url | prepend: site.url | absolute_url | xml_escape }}</link>
+      <guid isPermaLink="true">{{ post.url | prepend: site.url | absolute_url | xml_escape }}</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      {% assign author = post | scholarly_author: site %}{% if author %}<dc:creator>{{ author.name | xml_escape }}</dc:creator>{% endif %}
+      {% capture author_name %}{% include entry-author.html entry=post field="name" %}{% endcapture %}{% if author_name and author_name != empty %}<dc:creator>{{ author_name | xml_escape }}</dc:creator>{% endif %}
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}

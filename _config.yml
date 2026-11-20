@@ -5,12 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-theme: minimal-mistakes-jekyll
+# The theme lives in this repository. Disable the GitHub Pages default theme.
+theme: null
 minimal_mistakes_skin    : "derry" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "derry"
 
 # Site Settings
@@ -143,6 +139,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - assets/js/_main.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -151,9 +148,7 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
+  - assets/js/vendor/jquery/jquery-3.4.1.js
   - Capfile
   - changelog.md
   - config
@@ -216,21 +211,12 @@ collections:
     permalink: /:collection/:path/
 
 # Plugins (previously gems:)
-plugins:
+plugins: &site_plugins
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
   - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+whitelist: *site_plugins
 
 
 # Archives
@@ -262,16 +248,14 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
 
 # Defaults
 defaults:
+  - scope:
+      path: "_pages/post-metadata"
+    values:
+      layout: post-metadata
+      sitemap: false
   # _posts
   - scope:
       path: ""

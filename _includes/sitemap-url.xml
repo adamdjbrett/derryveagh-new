@@ -1,0 +1,2 @@
+{%- assign modified = include.modified | default: include.date -%}
+<url><loc>{{ include.path | replace: '/index.html', '/' | prepend: site.url | absolute_url | xml_escape }}</loc>{% if modified %}<lastmod>{{ modified | date_to_xmlschema }}</lastmod>{% endif %}</url>

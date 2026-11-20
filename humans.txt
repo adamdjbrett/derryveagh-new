@@ -33,6 +33,6 @@ Theme: https://github.com/mmistakes/minimal-mistakes
 
 /* SITE */
 
-Site: {{ '/' | absolute_url }}
+Site: {{ '/' | prepend: site.url | absolute_url }}
 Generator: Jekyll
-Credits: {{ '/credits/' | absolute_url }}
+Credits: {{ '/credits/' | prepend: site.url | absolute_url }}
