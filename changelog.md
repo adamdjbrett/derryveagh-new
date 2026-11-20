@@ -1,3 +1,8 @@
+## 2026-11-19 — Cloudflare beacon and XMIT upload
+
+- Verified that the live homepage’s Cloudflare beacon returned HTTP 200 with 31,853 bytes in Firefox and Chrome. Its SHA-512 matched the integrity attribute and its response allowed anonymous cross-origin access. The digest in the Firefox error matched zero bytes.
+- Added one retry when XMIT reports a chunk upload failure with `tls: bad record MAC`. The supplied deployment log shows that Jekyll and the output checks passed before this transfer failed.
+
 ## 2026-11-19 — Project attribution, citations and feeds
 
 - Added IndieWeb entry and author markup to the homepage, articles and post listings. Source bylines on primary texts now flow into the public byline, metadata and feeds. One unattributed eyewitness account is labeled “Uncredited.”

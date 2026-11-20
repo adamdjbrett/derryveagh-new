@@ -50,15 +50,16 @@ jobs:
           node-version: 24
 
       - name: Deploy to XMIT (CLI)
+        shell: bash
         env:
           XMIT_KEY: ${{ secrets.XMIT_KEY }}
+          SITE_INPUT: ${{ github.event_name == 'workflow_dispatch' && inputs.site || '' }}
         run: |
           if [ -z "$XMIT_KEY" ]; then
             echo "XMIT_KEY secret is not set" >&2
             exit 1
           fi
           # Use manual input when workflow_dispatch triggers this workflow
-          SITE_INPUT="${{ github.event_name == 'workflow_dispatch' && inputs.site || '' }}"
           if [ -n "$SITE_INPUT" ]; then
             export XMIT_SITE="$SITE_INPUT"
           fi
@@ -66,8 +67,17 @@ jobs:
             echo "XMIT site/domain not provided. Set repo Variable 'XMIT_SITE' or pass 'site' input." >&2
             exit 1
           fi
-          echo "Deploying _site to $XMIT_SITE via XMIT CLI";
-          npx -y @xmit.co/xmit "$XMIT_SITE" _site || { echo 'XMIT deploy failed' >&2; exit 1; }
+          echo "Deploying _site to $XMIT_SITE via XMIT CLI"
+          log="$RUNNER_TEMP/xmit-upload.log"
+          if npx -y @xmit.co/xmit "$XMIT_SITE" _site 2>&1 | tee "$log"; then
+            exit 0
+          fi
+          if ! grep -Fq 'Failed to upload chunk' "$log" || ! grep -Fq 'tls: bad record MAC' "$log"; then
+            exit 1
+          fi
+          echo "::warning::XMIT's TLS connection failed during chunk upload. Retrying once."
+          sleep 10
+          npx -y @xmit.co/xmit "$XMIT_SITE" _site
 
       - name: Post-deploy summary
         run: |
