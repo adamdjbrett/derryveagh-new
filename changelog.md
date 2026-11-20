@@ -1,3 +1,7 @@
+## 2026-11-20 — Footer author link
+
+- Link Robert Spiegelman’s name in the copyright line to his biography. Keep his IndieWeb attribution in each entry and retain the page bylines for other credited authors.
+
 ## 2026-11-19 — Standalone theme, plugin reduction and minification
 
 - Imported the 20 missing runtime theme files from the checksum-verified Minimal Mistakes 4.28.1 package. Retained the site’s existing theme overrides and compiled JavaScript. The Jekyll configuration explicitly disables theme-gem loading. The README documents independent builds and preview.

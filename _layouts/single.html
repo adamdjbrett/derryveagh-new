@@ -34,7 +34,7 @@ layout: default
         </header>
       {% endunless %}
 
-      <p class="page__meta">{% include entry-author.html entry=page %}</p>
+      {% include entry-author.html entry=page byline="true" %}
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
